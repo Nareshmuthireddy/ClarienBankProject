@@ -2,19 +2,14 @@
 terraform {
   required_providers {
     aws = {
-
-      source  = "hashicorp/aws_Naresh new code file"
+      source  = "hashicorp/aws_vamsicodefile"
       
     }
   }
 }
 
 # Provider Block
-
-
-provider "aws_Naresh new code file" {
-
-
+provider "aws_vamsicodefile" {
   profile = "default" 
   region  = "us-east-1"
 }
@@ -22,14 +17,14 @@ provider "aws_Naresh new code file" {
 #Resource Block
 resource "aws_instance" "ec2testserver" {
   ami           = "ami-041db4a969fe3eb68" 
-  instance_type = "D2S_V5"
+  instance_type = "t2.micro"
 
 }
 
 
 # Create VPC Terraform Module
 module "vpc" {
-  source  = "terraform-aws-modules/vpc/Naresh"
+  source  = "terraform-aws-modules/vpc/aws"
   
 
   # VPC Basic Details
