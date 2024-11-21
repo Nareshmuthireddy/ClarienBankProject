@@ -15,7 +15,8 @@ terraform {
 provider "aws_Naresh new code file" {
 
 
-  profile = "default" 
+  profile = "Naresh" 
+
   region  = "India"
 }
 
@@ -39,4 +40,4 @@ module "vpc" {
   private_subnets     = ["10.0.1.0/24"]
   public_subnets      = ["10.0.101.0/24"]
 
-#new comment added 
+#new comment added by Naresh
