@@ -13,7 +13,7 @@ terraform {
 
 provider "aws_Naresh new code file" {
 
-  profile = "default" 
+  profile = "Naresh" 
   region  = "India"
 }
 
