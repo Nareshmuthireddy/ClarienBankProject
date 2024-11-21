@@ -2,14 +2,14 @@
 terraform {
   required_providers {
     aws = {
-      source  = "hashicorp/aws_vamsitest"
+      source  = "hashicorp/aws_vamsimuthireddy"
       
     }
   }
 }
 
 # Provider Block
-provider "aws_vamsitest" {
+provider "aws_vamsimuthireddy" {
   profile = "default" 
   region  = "us-east-1"
 }
