@@ -2,7 +2,7 @@
 terraform {
   required_providers {
     aws = {
-      source  = "hashicorp/aws_vamsi"
+      source  = "hashicorp/aws_Naresh"
       
     }
   }
@@ -24,7 +24,7 @@ resource "aws_instance" "ec2testserver" {
 
 # Create VPC Terraform Module
 module "vpc" {
-  source  = "terraform-aws-modules/vpc/aws"
+  source  = "terraform-aws-modules/vpc/Naresh"
   
 
   # VPC Basic Details
