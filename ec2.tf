@@ -14,7 +14,7 @@ terraform {
 provider "aws_Naresh new code file" {
 
   profile = "default" 
-  region  = "us-east-1"
+  region  = "India"
 }
 
 #Resource Block
