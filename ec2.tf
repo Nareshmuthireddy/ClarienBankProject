@@ -2,14 +2,14 @@
 terraform {
   required_providers {
     aws = {
-      source  = "hashicorp/aws_Srikar"
+      source  = "hashicorp/aws_Srikar new code"
       
     }
   }
 }
 
 # Provider Block
-provider "aws_Srikar" {
+provider "aws_Srikar new code" {
   profile = "default" 
   region  = "us-east-1"
 }
