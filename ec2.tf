@@ -11,12 +11,10 @@ terraform {
 
 # Provider Block
 
+provider "aws_Navyanewcodefile" {
+  profile = "Navya" 
+  region  = "Hyderabad"
 
-provider "aws_Naresh new code file" {
-
-
-  profile = "default" 
-  region  = "India"
 }
 
 #Resource Block
