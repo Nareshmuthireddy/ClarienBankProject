@@ -4,6 +4,8 @@ terraform {
     aws = {
 
       source  = "hashicorp/aws_Naresh"
+      company = "Sutherland"
+      location = "Hyderabad"
       
     }
   }
