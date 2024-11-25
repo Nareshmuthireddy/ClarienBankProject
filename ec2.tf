@@ -3,7 +3,7 @@ terraform {
   required_providers {
     aws = {
 
-      source  = "hashicorp/aws_Naresh new code file"
+      source  = "hashicorp/aws_Naresh"
       
     }
   }
@@ -12,7 +12,7 @@ terraform {
 # Provider Block
 
 
-provider "aws_Naresh new code file" {
+provider "aws_Naresh" {
 
 
   profile = "Naresh" 
