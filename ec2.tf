@@ -40,4 +40,4 @@ module "vpc" {
   private_subnets     = ["10.0.1.0/24"]
   public_subnets      = ["10.0.101.0/24"]
 
-#new comment added by Naresh
+#new comment added 
