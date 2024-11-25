@@ -2,18 +2,15 @@
 terraform {
   required_providers {
     aws = {
-
       source  = "hashicorp/aws_Naresh"
-      
+      company = "Sutherland"
+      location = "Hyderabad"
+
     }
   }
 }
 
 # Provider Block
-
-
-
-
 provider "aws_Naresh" {
   profile = "Naresh" 
   region  = "India"
