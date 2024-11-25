@@ -12,12 +12,12 @@ terraform {
 # Provider Block
 
 
+
+
 provider "aws_Naresh" {
-
-
   profile = "Naresh" 
-
   region  = "India"
+
 }
 
 #Resource Block
