@@ -2,21 +2,19 @@
 terraform {
   required_providers {
     aws = {
+      source  = "hashicorp/aws_Naresh"
+      company = "Sutherland"
+      location = "Hyderabad"
 
-      source  = "hashicorp/aws_Naresh new code file"
-      
     }
   }
 }
 
 # Provider Block
-
-
-provider "aws_Naresh new code file" {
-
-
-  profile = "default" 
+provider "aws_Naresh" {
+  profile = "Naresh" 
   region  = "India"
+
 }
 
 #Resource Block
